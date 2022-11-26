@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+  
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+</head>
+<body>
+   
+    <h2>Digtal Clock</h2>
+    <div class="clock">
+        <div>
+            <span id="hour">00</span>
+            <span class="text">hours
+            </span>
+            </div>
+            <div>
+            <span id="min">00</span>
+            <span class="text">minutes
+            </span>
+        </div><div>
+            <span id="sec">00</span>
+            <span class="text">seconds
+            </span>
+        </div>
+        <div>
+            <span id="ampm">AM</span>
+           
+            </span>
+            
+        </div>
+
+
+       
+    </div>
+
+
+
+<!-- 
+    <script> 
+        const hourE1=document.getElementById("hour");
+        const minE1=document.getElementById("min");
+        const secE1=document.getElementById("sec");
+        const ampmE1=document.getElementById("ampm");
+
+    function updateClock(){
+        let h= new Date().getHours();
+        let m= new Date().getMinutes();
+        let s=new Date().getSeconds();
+        let ampm="AM";
+
+    if(h>12){
+        h=h-12;
+        ampm="PM";
+    }
+
+    hourE1.innerText= h;
+    minE1.innerText= m;
+    secE1.innerText= s;
+    ampmE1,(innerText=ampm);
+    setTimeout(()=>{
+
+        updateClock()
+
+    },1000)
+}
+updateClock();
+    </script> -->
+    <script src="index.js"> </script>
+   
+</body>
+</html>
